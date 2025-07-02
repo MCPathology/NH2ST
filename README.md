@@ -1,9 +1,8 @@
 # NH²2ST #
-***
+
 **Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning**, [arXiv](https://arxiv.org/abs/2506.23827).
 
 Mingcheng Qu, Yuncong Wu, Donglin Di, Yue Gao, Tonghua Su, Yang Song, Lei Fan*
-***
 
 *Summary*: We propose NH²2ST, a framework that integrates spatial context and both pathology and gene modalities for gene expression prediction. Our model comprises a query branch and a neighbor branch to process paired target patch and gene data and their neighboring regions, where cross-attention and contrastive learning are employed to capture intrinsic associations and ensure alignments between pathology and gene expression.
 
