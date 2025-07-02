@@ -1,8 +1,9 @@
 # NH²2ST #
-
+***
 **Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning**, [arXiv](https://arxiv.org/abs/2506.23827).
 
 Mingcheng Qu, Yuncong Wu, Donglin Di, Yue Gao, Tonghua Su, Yang Song, Lei Fan*
+***
 
 *Summary*: We propose NH²2ST, a framework that integrates spatial context and both pathology and gene modalities for gene expression prediction. Our model comprises a query branch and a neighbor branch to process paired target patch and gene data and their neighboring regions, where cross-attention and contrastive learning are employed to capture intrinsic associations and ensure alignments between pathology and gene expression.
 
@@ -32,6 +33,7 @@ Save these datasets to ./data within your project workspace, the structure of ./
     │       └──ST
     │           ├── INT
     │           └── ZEN
+    ├──weights
 ```
 
 ### Step 2: Crop the target patch.
@@ -43,6 +45,9 @@ XXX represents the datdaset you want to preprocess, e.g. "python get_patch_csv.p
 
 ### Step 3: Copy the gene list.
 The selected genes are stored in .npy files. Simply unzip the genes.zip file and place the .npy files into the corresponding directory (e.g., gene_INT.npy and gene_ZEN.npy should be placed in the HEST-1k directory).
+
+### Step 4: Download Pre-trained Weights
+Our model utilizes a pre-trained ResNet18 model to extract features. You can download the pre-trained weights from [resnet18](https://github.com/ozanciga/self-supervised-histopathology/releases/download/tenpercent/tenpercent_resnet18.ckpt). Please save the weights to the weights directory, as shown in the structure diagram above.
 
 ## Training and Testing
 - STNet
