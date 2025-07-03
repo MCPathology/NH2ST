@@ -1,6 +1,6 @@
 # NH²2ST #
 ***
-**Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning**, [arXiv](https://arxiv.org/abs/2506.23827).
+**Spatially Gene Expression Prediction using Dual-Scale Contrastive Learning (MICCAI2025 Eealy Accept)**, [arXiv](https://arxiv.org/abs/2506.23827).
 
 Mingcheng Qu, Yuncong Wu, Donglin Di, Yue Gao, Tonghua Su, Yang Song, Lei Fan*
 ***
