@@ -137,6 +137,8 @@ To modify the genes to be plotted, edit the NGHist2ST file. The style of the fig
 
 <img src="./imgs/visualization.png" title="Visualization"/>
 
+## Acknowledgements
+Our work has benefited significantly from the foundational contributions of the TRIPLEX framework, as presented in the CVPR paper "Accurate Spatial Gene Expression Prediction by Integrating Multi-Resolution Features" by Y. Chung et al. We are grateful to the authors for their pioneering work and for making their research publicly available.
 
 ## Citation
 
